@@ -1,5 +1,5 @@
 ## Amazon-Clone
--A simple clone of the Amazon website built using HTML, CSS, JavaScript, and jQuery.
+- A simple clone of the Amazon website built using HTML, CSS, JavaScript, and jQuery.
 
 ### Features
 - Mimics the layout and design of the Amazon website.
