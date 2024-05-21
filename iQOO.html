@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="iQOO.css">
+    <link rel="icon" type="image/x-icon" href="icons8-amazon-16.png">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <div class="logo border">
+                <img src="logo1.png" alt="logo" height="60px" width="80px">
+            </div>
+        </div>
+
+        <div class="location border">
+            <div class="location-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="location-display">
+                <span class="location-address">
+                    Delivering to Mumbai 400078
+                </span>
+                <p class="location-update">
+                    Update location
+                </p>
+            </div>
+        </div>
+        <div class="nav-search border">
+            <select class="search-select">
+                <option selected="selected">All Categories</option>
+                <option>Alexa Skills</option>
+                <option>Amazon Devices</option>
+                <option>Amazon Fashion</option>
+                <option>Amazon Fresh</option>
+                <option>Amazon Pharmacy</option>
+                <option>Appliances</option>
+                <option>Apps & Games</option>
+                <option>Audible Audiobooks</option>
+                <option>Baby</option>
+                <option>Beauty</option>
+                <option>Books</option>
+                <option>Car & Motorbike</option>
+                <option>Clothing & Accessories</option>
+                <option>Collectibles</option>
+                <option>Computers & Accessories</option>
+                <option>Deals</option>
+                <option>Electronics</option>
+                <option>Furniture</option>
+                <option>Garden & Outdoors</option>
+                <option>Gift Cards</option>
+                <option>Grocery & Gourmet Foods</option>
+                <option>Health & Personal Care</option>
+                <option>Home & Kitchen</option>
+                <option>Industrial & Scientific</option>
+                <option>Jewellery</option>
+                <option>Kindle Store</option>
+                <option>Luggage & Bags</option>
+                <option>Luxury Beauty</option>
+                <option>Movies & TV Shows</option>
+                <option>MP3 Music</option>
+                <option>Music</option>
+                <option>Musical Instruments</option>
+                <option>Office Products</option>
+                <option>Pet Supplies</option>
+                <option>Prime Video</option>
+                <option>Shoes & Handbags</option>
+                <option>Software</option>
+                <option>Sports, Fitness & Outdoors</option>
+                <option>Subscribe & Save</option>
+                <option>Tools & Home Improvement</option>
+                <option>Toys & Games</option>
+                <option>Under ₹500</option>
+                <option>Video Games</option>
+                <option>Watches</option>
+
+            </select>
+            <input placeholder="Search Amazon.in" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="nav-country border">
+            <div class="country-flag">
+                <div class="flag">
+                    <img src="flag.png" alt="Forest" width="20" height="20">
+                </div>
+            </div>
+            <div class="country-select">
+                <div>EN</div>
+            </div>
+            <div class="country-icon">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="nav-country-popup">
+                <div class="nav-country-popup-content">
+                    <div class="country-selected">
+                        <i class="fa-regular fa-circle-dot eng"></i>
+                        <span>English - EN</span>
+                    </div>
+                    <hr>
+                    <div class="country-others">
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>मराठी - MR</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>हिंदी - HI</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>தமிழ் - TA</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>తెలుగు - TE</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>ಕನ್ನಡ - KN</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>മലയാളം - ML</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>বাংলা - BL</span>
+                        </p>
+                        <p class="learn-m"><a href="#">Learn More</a></p>
+                    </div>
+                    <hr>
+                    <div class="country-change">
+                        <p>You are shopping on Amazon.in</p>
+                        <p><a href="#">Change country/region.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-sign border">
+            
+            <span class="sign-msg">
+                Hello, sign in
+            </span>
+            <div class="sign-in">
+                <span class="sign-msg2">
+                    Account & Lists
+                </span>
+                <span class="sign-in-icon"><i class="fa-solid fa-caret-down"></i></span>
+            </div>
+            <div class="popup">
+
+                <div class="popup-content">
+                    <div class="sign-btn">
+                        <button>Sign in</button>
+                        <div class="sign-btn-msg">
+                            New Customer?<a href="#">Start here.</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="sign-details">
+                        <div class="sign-details-11">
+                            <h5 class="your-head">
+                                Your List
+                            </h5>
+                            <p>Create a Wish List</p>
+                            <p>Wish From Any Website</p>
+                            <p>Baby Wish List</p>
+                            <p>Discover Your Style</p>
+                            <p>Explore Showroom</p>
+                        </div>
+                        <div class="sign-details-22">
+                            <h5 class="your-head">
+                                Your Account
+                            </h5>
+                            <p>Your Account</p>
+                            <p>Your Orders</p>
+                            <p>Your Wish List</p>
+                            <p>Your Recommendations</p>
+                            <p>Your Prime Membership</p>
+                            <p>Your Prime Video</p>
+                            <p>Your Subscribe & Save Items</p>
+                            <p>Membership & Subscriptions</p>
+                            <p>Your Seller Account</p>
+                            <p>Manage Your Content and Devices</p>
+                            <p>Your Free Business Account</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            
+        
+        </div>
+        <div class="nav-return border">
+            <span class="return-msg">
+                Returns
+            </span>
+            <div class="order">
+                <span class="order-msg">
+                    & Orders
+                </span>
+            </div>
+        </div>
+        <div class="nav-cart">
+            <div class="cart border">
+               <a href="addCart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="location-popup">
+        <div class="location-popup-content">
+            <div class="location-heading">
+                <a href="#" class="close-loc"><i class="fa-regular fa-circle-xmark"></i></a>
+                <h4 class="location-head">Choose your location</h4>
+            </div>
+            <div class="update-details">
+                <p>Select a delivery location to see product availability and delivery options</p>
+                <button>Sign in to see your addresses</button>
+                <p class="details-p2">or enter an Indian pincode</p>
+            </div>
+            <div class="apply-details">
+                <input type="text" id="">
+                <button class="apply">Apply</button>
+            </div>
+        </div>
+    </div>
+   
+    
+    <div class="navmenu">
+        <div class="menu border">
+            <div class="menu-icon message">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu-msg message">
+                All
+            </div>
+        </div>
+        <div class="fresh border">
+            <div class="fresh-msg padding-menu message">
+                Fresh
+            </div>
+        </div>
+        <div class="minitv border">
+            <div class="minitv-msg padding-menu message">
+                Amazon miniTV
+            </div>
+        </div>
+        <div class="sell border">
+            <div class="sell-msg padding-menu message">
+                Sell
+            </div>
+        </div>
+        <div class="bestsellers border">
+            <div class="bestsellers-msg padding-menu message">
+                Best Sellers
+            </div>
+        </div>
+        <div class="mobile border">
+            <a href="#">
+                <div class="mobile-msg padding-menu message">
+                    Mobiles
+
+            </a>
+        </div>
+    </div>
+
+    <div class="primeimg">
+        <div class="today border">
+            <div class="today-msg padding-menu message">
+                Today's Deal
+            </div>
+        </div>
+        <div class="prime border">
+            <div class="prime-icon padding-menu">
+                <img src="prime.jpg" alt="prime" height="40px" width="350px">
+            </div>
+        </div>
+        <div class="primenow prime-msg border message">
+            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+            </p>
+            <p>Prime Now</p>
+        </div>
+    </div>
+    </div>
+    <div class="menu-side-popup">
+        <div class="menu-side">
+            <div class="sign-in-side">
+                <div class="sign-in-icons">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="sign-in-msg">
+                    <b>Hello, sign in</b>
+                </div>
+                <div class="nav-toggle">
+                    <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-side-content">
+                <ul>
+                    <li>
+                        <div class="content-head"> Trending </div>
+                    </li>
+                    <li class="content-list">Best Sellers</li>
+                    <li class="content-list">New Releases</li>
+                    <li class="content-list">Movers and Shakers</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Digital Content and Device </div>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Echo & Alexa</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Fire TV</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Kindle E-Readers & eBooks</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Audible Audiobooks</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Prime Video</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Prime Music</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Shop by Category </div>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Mobiles, Computers</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">TV, Appliances, Electronics</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Men's Fashion</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Women's Fashion</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-deta content-list">
+                        <div class="content-det">See All</div>
+                        <i class="fa-solid fa-chevron-down content-icon"></i>
+                    </li>
+
+
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Programs & Features </div>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Pay</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Gift Cards & Mobile Recharges</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Launchpad</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Handloom and Handicrafts</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-deta content-list">
+                        <div class="content-det">See All</div>
+                        <i class="fa-solid fa-chevron-down content-icon"></i>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Help & Settings </div>
+                    </li>
+                    <li class="content-list">Your Account</li>
+                    <li class="content-list">Customer Service</li>
+                    <li class="content-list">Sign in</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="navsub-menu">
+        <div class="navsub-first">
+            <a href="#">
+                <img src="electronic.png" alt="electronic" height="50px" width="100px">
+            </a>
+        </div>
+
+        <div class="navsub-all">
+            <div class="navsub-allfirst item1">
+                <a href="#" style="color: #333333;">Mobiles & Accessories</a>
+            </div>
+            <div class="navsub-allfirst item2">
+                <a href="#" style="color: #333333;">Laptop & Accessories</a>
+            </div>
+            <div class="navsub-allfirst item3">
+                <a href="#" style="color: #333333;">Tv & Home Entertainment</a>
+            </div>
+            <div class="navsub-allfirst item4">
+                <a href="#" style="color: #333333;">Audio</a>
+            </div>
+            <div class="navsub-allfirst item5">
+                <a href="#" style="color: #333333;">Cameras</a>
+            </div>
+            <div class="navsub-allfirst item6">
+                <a href="#" style="color: #333333;">Computer Peripherals</a>
+            </div>
+            <div class="navsub-allfirst item7">
+                <a href="#" style="color: #333333;">Smart Technology</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="bank-details"><img src="bank-details.jpg" alt="bank-details"></div>
+    <br>
+    <div class="display-bar">
+        <a href="#">Electronics > Mobiles & Accessories
+        </a>
+    </div><br>
+    <div class="main">
+        <div class="sidebar">
+            <a href="#"><img src="img1.jpg" alt="img1" class="border-img img1"></a><br>
+            <a href="#"><img src="img2.jpg" alt="img2" class="border-img img2"></a><br>
+            <a href="#"><img src="img3.jpg" alt="img3" class="border-img img3"></a><br>
+            <a href="#"><img src="img4.jpg" alt="img4" class="border-img img4"></a><br>
+            <a href="#"><img src="img5.jpg" alt="img5" class="border-img img5"></a><br>
+            <a href="#"><img src="img6.jpg" alt="img6" class="border-img img6"></a><br>
+            <a href="#"><img src="img7.jpg" alt="img7" class="border-img img7"></a>
+        </div>
+
+        <div class="iQOO-img1">
+            <a href="#"><img src="iQOOimg1.jpg" alt="iQOO-img1" width="400px"></a>
+        </div>
+        <div class="upload-icon">
+            <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+        </div>
+        <div class="mobile-desc">
+            <p class="mobile-descdet">iQOO Z9 5G (Brushed Green, 8GB RAM, 128GB Storage) | Dimensity 7200 5G Processor |
+                Sony IMX882 OIS Camera
+                | 120Hz AMOLED with 1800 nits Local Peak Brightness | 44W Charger in The Box</p>
+            <a href="#">
+                <p>Visit the iQOO Store</p>
+            </a>
+            <a href="#">
+                <p class="rating">4.1
+                    <i class="fa-solid fa-star fill"></i>
+                    <i class="fa-solid fa-star fill"></i>
+                    <i class="fa-solid fa-star fill"></i>
+                    <i class="fa-solid fa-star fill"></i>
+                    <i class="fa-regular fa-star fill"></i>
+                </p>
+            </a>
+            <a href="#">
+                <p class="selling">5K+ bought in past month</p>
+            </a>
+        </div>
+        <div class="exchange main-border">
+            <div class="exchange1 exchange-border">
+                <p class="withex">With Exchange <i class="fa-regular fa-circle withexm"></i></p>
+                <p class="exoff">Up to <i class="fa-solid fa-indian-rupee-sign"></i> 18,999.00 off</p>
+            </div>
+            <div class="exchange2">
+                <p class="withex">Without Exchange <i class="fa-solid fa-circle-dot withexms"></i></p>
+                <p class="exoff">Up to <i class="fa-solid fa-indian-rupee-sign"></i> <span class="price">18999.00 </span>off <i
+                        class="fa-solid fa-indian-rupee-sign" style="color:#333333;"></i> <span
+                        style="text-decoration: line-through;color: #333333;">24,999.00 </span></p>
+            </div>
+            <div class="delivery1">
+                <p><a href="#">FREE delivery</a> Sunday, 24 March. <a href="#">Details</a></p>
+            </div>
+            <div class="delivery2">
+                <p>Or fastest delivery <b>Tomorrow, 23 March.</b> Order within <span style="color: #007600;"> 7 hrs 1
+                        min.</span><a href="#"> Details</a></p>
+            </div>
+            <div class="delivery3">
+                <div class="delivery3-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="delivery-display">
+                    <span class="delivery-address">
+                        Delivering to Mumbai 400078 -
+                    </span>
+                    <p class="delivery-update">
+                        Update location
+                    </p>
+                </div>
+            </div>
+            <div class="stock">
+                <span class="stock-msg">In stock</span>
+            </div>
+            <span class="ship1">Ships from</span>
+            <span class="ship2"> Amazon </span><br>
+            <span class="ship3"> Sold by </span>
+            <span class="ship4"> Darshita Etel </span><br>
+            <div class="plan">
+                Add a Protection Plan:
+            </div>
+            <div class="plan1">
+                <p><i class="fa-regular fa-square"></i>
+                    <a href="#">Extended Warranty by OneAssist for ₹649.00</a>
+                </p>
+            </div>
+            <div class="plan2">
+                <p>
+                    <i class="fa-regular fa-square"></i>
+                    <a href="#">Total Protection Plan by Acko for ₹1,099.00</a>
+                </p>
+            </div>
+            <div class="plan3">
+                <p>
+                    <i class="fa-regular fa-square"></i>
+                    <a href="#">Total Protection Plan by Quess for ₹799.00</a>
+                </p>
+            </div>
+            <div class="quantity">
+                <label style="font-weight: lighter;">Quantity:</label>
+                <select class="quanti">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="add-cart">
+               <a href="addCart.html"> Add to Cart </a>
+            </div>
+            <div class="buy-cart">
+                Buy Now
+            </div>
+            <div class="transa">
+                <i class="fa-solid fa-lock"></i>
+                <a href="#"><span class="transac">Secure transcation</span></a>
+            </div>
+            <div class="gift">
+                <i class="fa-regular fa-square"></i>
+                <span class="gift1">Add gift options</span>
+            </div>
+        </div>
+        <div class="seconddet">
+            <img src="topb.png" alt="TopbrandLabel" width="80">
+            <span class="iQOO-text">iQOO</span>
+            <div class="det-1">
+                <img src="rightsign.png" alt="rightsign" width="18" height="18">
+                <p class="des-1">91% positive ratings from 100K+ customers</p>
+            </div>
+            <div class="det-2">
+                <img src="rightsign.png" alt="rightsign" width="18" height="18">
+                <p class="des-2">100K+ recent orders from this brand</p>
+            </div>
+            <div class="det-3">
+                <img src="rightsign.png" alt="rightsign" width="18" height="18">
+                <p class="des-3">2+ years on Amazon</p>
+            </div>
+        </div>
+        <div class="thirddet">
+            <h5 class="third-des">Highly rated by customers for</h5>
+            <div class="detailsre">
+                <div class="fst">
+                    <i class="fa-regular fa-thumbs-up fst-icon"></i>
+                    <span class="fst-det">good for gaming</span>
+                </div>
+                <div class="sec">
+                    <i class="fa-regular fa-thumbs-up fst-icon"></i>
+                    <span class="sec-det">fast charging</span>
+                </div>
+                <div class="thrd">
+                    <i class="fa-regular fa-thumbs-up fst-icon"></i>
+                    <span class="thrd-det">good performance</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="mobileproduct-1">
+        <div class="another-heading">
+            <h3>More from frequently bought brands</h3>
+        </div>
+        <div class="spons">
+            Sponsored <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="mobiledes">
+            <div class="mabout">
+                <img src="mobile1.jpg" alt="mobile1" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p class="mdes-1">realme NARZO 70 Pro 5G (Glass Gold, 8GB RAM,128GB Storage) Dimensity 7050 5G...</p>
+                </a>
+                <div class="prim mdes-1">
+                    <a href="#" class="m-link">
+                        <p>₹19,999.00</p>
+                    </a>
+                    <a href="#" class="primen prime-msg dis">
+                        <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                        </p>
+                        <p class="prime-check">Prime</p>
+                    </a>
+                </div>
+            </div>
+            <div class="mabout">
+                <img src="product12.jpg" alt="mobile2" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p class="mdes-1">Redmi 12 5G Moonstone Silver 6GB RAM 128GB ROM</p>
+                </a>
+                <div class="style-star-1 mdes-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">14,845</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹12,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg dis">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mabout">
+                <img src="product13.jpg" alt="mobile3" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p class="mdes-1">Redmi Note 13 5G (Stealth Black, 6GB RAM, 128GB Storage) | 5G Ready | 120Hz Bezel...</p>
+                </a>
+                <div class="style-star-1 mdes-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                    <span class="t-col-des">1,803</span>
+                </div>
+                <div class="prim mdes-1">
+                    <a href="#" class="m-link">
+                        <p>₹17,999.00</p>
+                    </a>
+                    <a href="#" class="primen prime-msg dis">
+                        <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                        </p>
+                        <p class="prime-check">Prime</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mabout">
+                <img src="product14.jpg" alt="mobile4" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p class="mdes-1">Lava Blaze Curve 5G (Glass Iron, 8GB LPDDR5 RAM, UFS 3.1 128GB Storage) | 120Hz...</p>
+                </a>
+                <div class="style-star-1 mdes-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">31</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹17,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg dis">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mabout">
+                <img src="product15.jpg" alt="mobile5" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p class="mdes-1">realme narzo 60X 5G (Nebula Purple 6GB,128GB Storage) Up to 2TB External…</p>
+                </a>
+                <div class="style-star-1 mdes-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">9,658</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹13,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg dis">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="mobileproduct-1">
+        <div class="another-heading">
+            <h3>Products related to this item</h3>
+        </div>
+        <div class="spons">
+            Sponsored <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="mobiledes">
+            <div class="mabout">
+                <img src="mobile1.jpg" alt="mobile1" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>realme NARZO 70 Pro 5G (Glass Gold, 8GB RAM,256GB Storage) Dimensity 7050 5G Chipse...</p>
+                </a>
+                <div class="prim">
+                    <a href="#" class="m-link">
+                        <p>₹21,999.00</p>
+                    </a>
+                    <a href="#" class="primen prime-msg">
+                        <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                        </p>
+                        <p class="prime-check">Prime</p>
+                    </a>
+                </div>
+            </div>
+            <div class="mabout">
+                <img src="mobile2.jpg" alt="mobile2" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) | 5G Ready | 120Hz Bezel-Le...</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">1,803</span>
+                    <p class="p-deal"><a href="#">Deal of the Day</a></p>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹19,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mabout">
+                <img src="mobile3.jpg" alt="mobile3" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Xiaomi 14 (Jade Green, 12GB RAM, 512GB Storage) | 50MP Leica Professional Optics | ...</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </span>
+                    <span class="t-col-des">33</span>
+                </div>
+                <div class="prim">
+                    <a href="#" class="m-link">
+                        <p>₹69,999.00</p>
+                    </a>
+                    <a href="#" class="primen prime-msg">
+                        <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                        </p>
+                        <p class="prime-check">Prime</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mabout">
+                <img src="mobile4.jpg" alt="mobile4" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Redmi 13C 5G (Startrail Green, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5...</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">2,366</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹10,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mabout">
+                <img src="mobile5.jpg" alt="mobile5" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Lava Agni 2 5G (Glass Iron, 8GB RAM, 256GB Storage) |2.6GHz Dimensity 7050 6nm…</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">5,023</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹20,799.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="main-2">
+        <div class="main-2-heading">
+            <h4 class="heading-msg">Buy it With</h4>
+        </div>
+        <div class="main-2-desc">
+            <div class="desc-1">
+                <img src="iQOOimg1.jpg" alt="iQOO-img1" width="140" height="140">
+                <a href="#"><i class="fa-solid fa-square-check boxdes"></i></a>
+            </div>
+            <div class="plus-sign">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="desc-1">
+                <img src="Redmi 13C 5G.jpg" alt="Redmi 13C" width="140" height="140">
+                <a href="#"><i class="fa-solid fa-square-check boxdes"></i></a>
+            </div>
+            <div class="plus-sign">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="desc-1">
+                <img src="realme narzo 60X 5G.jpg" alt="realme narzo" width="140" height="140">
+                <a href="#"><i class="fa-solid fa-square-check boxdes"></i></a>
+            </div>
+            <div class="main-2-detail">
+                <div class="totalprice">
+                    <span class="total1">Total price:</span>
+                    <span class="total2"> ₹41,997.00</span>
+                    <p class="total3 borderb">Add all 3 to Cart</p>
+                    <div class="alertdes">
+                        <div class="alertd">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </div>
+                        <div class="alert-ms">
+                            <span class="alert-msg">These items are dispatched from and sold by different
+                                sellers.</span>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <a href="#">
+                            Show details
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-2-about">
+            <div class="first-about">
+                <span class="f-msg">This item: </span>
+                <span class="f-det">iQOO Z9 5G (Brushed Green, 8GB RAM, 128GB Storage) | Dimensity...</span>
+                <div class="f-price">
+                    ₹19,999<sup>00</sup>
+                </div>
+            </div>
+            <div class="second-about">
+                <a href="#">
+                    Redmi 13C 5G (Startrail Green, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G
+                </a>
+                <div class="f-price">
+                    ₹10,999<sup>00</sup>
+                </div>
+            </div>
+            <div class="second-about">
+                <a href="#">
+                    iQOO Z7s 5G by vivo (Norway Blue, 6GB RAM, 128GB Storage) | Ultra Bright </a>
+                <div class="f-price">
+                    ₹14,999<sup>00</sup>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="main-3">
+        <div class="main-3-heading">
+            <h3 class="heading-msg">Compare with similar items</h3>
+        </div>
+        <div class="main-3-heading-2">
+            <span class="heading-msg-2">
+                This Item
+            </span>
+            <span class="heading-msg-3">Recommendations</span>
+        </div>
+    </div>
+    <hr class="msg-2-divider">
+    <hr class="msg-3-divider">
+    <div class="main-3-about">
+        <div class="fabout">
+            <img src="iQOOimg1.jpg" alt="iQOO-img1" width="150" height="150">
+            <p class="fabout-msg">iQOO Z9 5G (Brushed Green, 8GB RAM, 128GB Storage) | Dimensity 7200 5G Process...</p>
+            <a href="#" class="sec-link">
+                <p class="add-button">Add to Cart</p>
+            </a>
+        </div>
+        <div class="sabout">
+            <img src="iQOO2.jpg" alt="iQOO2" width="150" height="150">
+            <a href="#">
+                <p class="sabout-msg">iQOO Z9 5G (Graphene Blue, 8GB RAM, 256GB Storage) | Dimensity 7200 5G Processo...
+                </p>
+            </a>
+            <a href="#" class="sec-link">
+                <p class="add-button">Add to Cart</p>
+            </a>
+        </div>
+        <div class="sabout">
+            <img src="iQOO3.jpg" alt="iQOO3" width="150" height="150">
+            <a href="#">
+                <p class="sabout-msg">iQOO Z9 5G (Graphene Blue, 8GB RAM, 128GB Storage) | Dimensity 7200 5G
+                    Processor...</p>
+            </a>
+            <a href="#" class="sec-link">
+                <p class="add-button">Add to Cart</p>
+            </a>
+        </div>
+        <div class="sabout">
+            <img src="iQOO4.jpg" alt="iQOO4" width="150" height="150">
+            <a href="#">
+                <p class="sabout-msg">iQOO Z9 5G (Brushed Green, 8GB RAM, 256GB Storage) | Dimensity 7200 5G
+                    Processor...</p>
+            </a>
+            <a href="#" class="sec-link">
+                <p class="add-button">Add to Cart</p>
+            </a>
+        </div>
+    </div>
+    <div class="tabledetails">
+        <table>
+            <tr class="f-row">
+                <th class="f-col">Price</th>
+                <td class="f-col"><span class="f-col-disc">-20%</span> <span
+                        class="f-col-discpc">₹19,999<sup>00</sup></span>
+                    <span class="f-col-actualpc">M.R.P: <del>₹24,999.00</del>
+                </td></span>
+                <td class="f-col"><span class="f-col-disc">-20%</span> <span
+                        class="f-col-discpc">₹21,999<sup>00</sup></span>
+                    <span class="f-col-actualpc">M.R.P: <del>₹26,999.00</del>
+                </td></span>
+                <td class="f-col"><span class="f-col-disc">-20%</span> <span
+                        class="f-col-discpc">₹19,999<sup>00</sup></span>
+                    <span class="f-col-actualpc">M.R.P: <del>₹24,999.00</del>
+                </td></span>
+                <td class="f-col"><span class="f-col-disc">-20%</span> <span
+                        class="f-col-discpc">₹21,999<sup>00</sup></span>
+                    <span class="f-col-actualpc">M.R.P: <del>₹26,999.00</del>
+                </td></span>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Delivery</th>
+                <td class="s-col"><span class="s-col-det">Get it by <b>Friday, March 29</b></span></td>
+                <td class="s-col"><span class="s-col-det">Get it by <b>Friday, March 29</b></span></td>
+                <td class="s-col"><span class="s-col-det">Get it by <b>Friday, March 29</b></span></td>
+                <td class="s-col"><span class="s-col-det">Get it by <b>Friday, March 29</b></span></td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Customer Ratings</th>
+                <td class="s-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des"> 425</span>
+                </td>
+                <td class="s-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des"> 425</span>
+                </td>
+                <td class="s-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des"> 425</span>
+                </td>
+                <td class="s-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des"> 425</span>
+                </td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Brightness</th>
+                <td class="t-col"><span>4.5 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+                <td class="t-col"><span>4.5 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+                <td class="t-col"><span>4.5 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+                <td class="t-col"><span>4.5 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Value For Money</th>
+                <td class="t-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+                <td class="t-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+                <td class="t-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+                <td class="t-col"><span>4.1 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></span>
+                </td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Battery Life</th>
+                <td class="t-col"><span>4.0 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+                <td class="t-col"><span>4.0 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+                <td class="t-col"><span>4.0 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+                <td class="t-col"><span>4.0 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Camera Quality</th>
+                <td class="t-col"><span>3.9 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+                <td class="t-col"><span>3.9 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+                <td class="t-col"><span>3.9 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+                <td class="t-col"><span>3.9 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                </td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Sold By</th>
+                <td class="s-col">Darshita Etel</td>
+                <td class="s-col">Darshita Etel</td>
+                <td class="s-col">Darshita Etel</td>
+                <td class="s-col">Darshita Etel</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Display Size</th>
+                <td class="s-col">6.67 inches</td>
+                <td class="s-col">6.67 inches</td>
+                <td class="s-col">6.67 inches</td>
+                <td class="s-col">6.67 inches</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Memory Capacity</th>
+                <td class="s-col">128 GB</td>
+                <td class="s-col">256 GB</td>
+                <td class="s-col">128 GB</td>
+                <td class="s-col">256 GB</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Model Name</th>
+                <td class="s-col">iQOO Z9 5G</td>
+                <td class="s-col">iQOO Z9 5G</td>
+                <td class="s-col">iQOO Z9 5G</td>
+                <td class="s-col">iQOO Z9 5G</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Operating System</th>
+                <td class="s-col">Funtouch OS 14 Based On Android 14</td>
+                <td class="s-col">Funtouch OS 14 Based On Android 14</td>
+                <td class="s-col">Funtouch OS 14 Based On Android 14</td>
+                <td class="s-col">Funtouch OS 14 Based On Android 14</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Connectivity Tech</th>
+                <td class="s-col">Bluetooth 5.3, Wi-Fi, USB</td>
+                <td class="s-col">Bluetooth 5.3, Wi-Fi, USB</td>
+                <td class="s-col">Bluetooth 5.3, Wi-Fi, USB</td>
+                <td class="s-col">Bluetooth 5.3, Wi-Fi, USB</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Display Type</th>
+                <td class="s-col">AMOLED</td>
+                <td class="s-col">AMOLED</td>
+                <td class="s-col">AMOLED</td>
+                <td class="s-col">AMOLED</td>
+            </tr>
+            <tr class="f-row">
+                <th class="f-col">Service Provider</th>
+                <td class="s-col">—</td>
+                <td class="s-col">CDMA</td>
+                <td class="s-col">CDMA</td>
+                <td class="s-col">CDMA</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="another-heading">
+        <h3>What is in the box?</h3>
+    </div>
+    <div class="boxlist">
+        <ul style="list-style-type:disc; width: 650px; color: #0F1111;">
+            <li>Cell phone, Charger, USB cable, Eject tool,
+                Quick start guide, Warranty card, Phone case
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="another-heading">
+        <h3>Looking for specific info?</h3>
+    </div>
+    <div class="search-review">
+        <i class="fa-solid fa-magnifying-glass review-icon"></i>
+        <input placeholder="Search in Reviews, Q&A..." class="review-input">
+    </div>
+    <hr>
+    <div class="another-heading">
+        <h3>From the manufacturer</h3>
+    </div>
+    <div class="about-mobile">
+        <div class="videomobile">
+            <video width="320" height="240" autoplay muted>
+                <source src="iQOO.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="mobilepro">
+            <img src="mobilepro.jpg" alt="mobileprosessor" width="100%">
+            <img src="camera.jpg" alt="camera" width="100%">
+            <img src="display.jpg" alt="display" width="100%">
+        </div>
+        <div class="backg">
+            <div class="questans">
+                <div class="firstq">
+                    <div class="ques-icon"><i class="fa-solid fa-q"></i></div>
+                    <div class="quest">Does iQOO Z9 5G has expandable storage support?</div>
+                    <div class="arrow-down">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="questans">
+                <div class="firstq">
+                    <div class="ques-icon"><i class="fa-solid fa-q"></i></div>
+                    <div class="quest">Does iQOO Z9 5G support Dual 5G SIMs?</div>
+                    <div class="arrow-down">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="questans">
+                <div class="firstq">
+                    <div class="ques-icon"><i class="fa-solid fa-q"></i></div>
+                    <div class="quest">What all sensors are present in iQOO Z9 5G?</div>
+                    <div class="arrow-down">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="questans">
+                <div class="firstq">
+                    <div class="ques-icon"><i class="fa-solid fa-q"></i></div>
+                    <div class="quest">What type of fingerprint sensor is used in iQOO Z9 5G?</div>
+                    <div class="arrow-down">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="questans">
+                <div class="firstq">
+                    <div class="ques-icon"><i class="fa-solid fa-q"></i></div>
+                    <div class="quest">Does it record videos in 4K resolution?</div>
+                    <div class="arrow-down">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="details-head">
+        <h2>iQOO Z9 5G Mobile Phone Information</h2>
+    </div>
+    <div class="mob-details">
+        <div class="mob-det-1">
+            <div class="details-head-2">
+                <h1>Technical Details</h1>
+            </div>
+            <div class="mob-det-table">
+                <table>
+                    <tr>
+                        <th>OS</th>
+                        <td>Funtouch OS 14 Based On Android 14</td>
+                    </tr>
+                    <tr>
+                        <th>RAM</th>
+                        <td>8 GB</td>
+                    </tr>
+                    <tr>
+                        <th>Product Dimensions</th>
+                        <td>16.3 x 7.6 x 0.8 cm; 188 Grams</td>
+                    </tr>
+                    <tr>
+                        <th>Batteries</th>
+                        <td>1 Lithium Ion batteries required. (included)</td>
+                    </tr>
+                    <tr>
+                        <th>Item model number</th>
+                        <td>I2302</td>
+                    </tr>
+                    <tr>
+                        <th>Wireless communication technologies</th>
+                        <td>Cellular</td>
+                    </tr>
+                    <tr>
+                        <th>Connectivity technologies</th>
+                        <td>Bluetooth 5.3, Wi-Fi, USB</td>
+                    </tr>
+                    <tr>
+                        <th>GPS</th>
+                        <td>True</td>
+                    </tr>
+                    <tr>
+                        <th>Special features</th>
+                        <td>Fast Charging Support, Dual Stereo Speakers</td>
+                    </tr>
+                    <tr>
+                        <th>Other display features</th>
+                        <td>Wireless</td>
+                    </tr>
+                    <tr>
+                        <th>Device interface - primary </th>
+                        <td>Touchscreen</td>
+                    </tr>
+                    <tr>
+                        <th>Other camera features</th>
+                        <td>Rear</td>
+                    </tr>
+                    <tr>
+                        <th>Form factor</th>
+                        <td>Bar</td>
+                    </tr>
+                    <tr>
+                        <th>Colour</th>
+                        <td>Brushed Green</td>
+                    </tr>
+                    <tr>
+                        <th>Battery Power Rating</th>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <th>Whats in the box</th>
+                        <td>Cell phone, Charger, USB cable, Eject tool, Quick start guide, Warranty card, Phone case
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Manufacturer</th>
+                        <td>vivo Mobile India Pvt Ltd</td>
+                    </tr>
+                    <tr>
+                        <th>Country of Origin</th>
+                        <td>India</td>
+                    </tr>
+                    <tr>
+                        <th>Item Weight</th>
+                        <td>188 g</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="mob-det-2">
+            <div class="details-head-2">
+                <h1>Additional Information</h1>
+            </div>
+            <br>
+            <div class="mob-det-table">
+                <table>
+                    <tr>
+                        <th>ASIN</th>
+                        <td>B07WGPBNTC</td>
+                    </tr>
+                    <tr>
+                        <th>Customer Reviews</th>
+                        <td class="s-col"><span>4.0 </span><span class="style-star"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i></span>
+                            <span class="t-col-des"> 427 Ratings</span>
+                            <span>4.0 out of 5 stars</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Best Sellers Rank</th>
+                        <td class="s-col"><span>#22 in Electronics </span>
+                            <span class="t-col-des"> (See Top 100 in Electronics)</span>
+                            <span>#15 in</span><span class="t-col-des">Smartphones</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Date First Available</th>
+                        <td>13 March 2024</td>
+                    </tr>
+                    <tr>
+                        <th>Manufacturer</th>
+                        <td>vivo Mobile India Pvt Ltd, Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre,
+                            Plot no-TZ-13A, Techzone (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308</td>
+                    </tr>
+                    <tr>
+                        <th>Packer</th>
+                        <td>Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre, Plot no-TZ-13A, Techzone
+                            (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308</td>
+                    </tr>
+                    <tr>
+                        <th>Importer</th>
+                        <td>Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre, Plot no-TZ-13A, Techzone
+                            (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308</td>
+                    </tr>
+                    <tr>
+                        <th>Item Dimensions LxWxH</th>
+                        <td>16.3 x 7.6 x 0.8 Centimeters</td>
+                    </tr>
+                    <tr>
+                        <th>Net Quantity</th>
+                        <td>1 Count</td>
+                    </tr>
+                    <tr>
+                        <th>Generic Name</th>
+                        <td>Smartphone</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="details-head-2">
+                <h1 style="margin-left: 10px;">Feedback</h1>
+            </div>
+            <hr>
+            <div class="feedlink">
+                <span>Would you like to <a href="#">tell us about a lower price? </a><i
+                        class="fa-solid fa-angle-down"></i></span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="mobileproduct-1">
+        <div class="another-heading">
+            <h3>Related products with free delivery on eligible orders</h3>
+        </div>
+        <div class="spons">
+            Sponsored <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="mobiledes">
+            <div class="mabout">
+                <img src="mobile1.jpg" alt="mobile1" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>realme NARZO 70 Pro 5G (Glass Gold, 8GB RAM,256GB Storage) Dimensity 7050 5G Chipse...</p>
+                </a>
+                <div class="prim">
+                    <a href="#" class="m-link">
+                        <p>₹21,999.00</p>
+                    </a>
+                    <a href="#" class="primen prime-msg">
+                        <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                        </p>
+                        <p class="prime-check">Prime</p>
+                    </a>
+                </div>
+            </div>
+            <div class="mabout">
+                <img src="mobile2.jpg" alt="mobile2" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) | 5G Ready | 120Hz Bezel-Le...</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">1,803</span>
+                    <p class="p-deal"><a href="#">Deal of the Day</a></p>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹19,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mabout">
+                <img src="mobile3.jpg" alt="mobile3" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Xiaomi 14 (Jade Green, 12GB RAM, 512GB Storage) | 50MP Leica Professional Optics | ...</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </span>
+                    <span class="t-col-des">33</span>
+                </div>
+                <div class="prim">
+                    <a href="#" class="m-link">
+                        <p>₹69,999.00</p>
+                    </a>
+                    <a href="#" class="primen prime-msg">
+                        <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                        </p>
+                        <p class="prime-check">Prime</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mabout">
+                <img src="mobile4.jpg" alt="mobile4" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Redmi 13C 5G (Startrail Green, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5...</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">2,366</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹10,999.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mabout">
+                <img src="mobile5.jpg" alt="mobile5" width="150" height="150">
+                <a href="#" class="mdes">
+                    <p>Lava Agni 2 5G (Glass Iron, 8GB RAM, 256GB Storage) |2.6GHz Dimensity 7050 6nm…</p>
+                </a>
+                <div class="style-star-1">
+                    <span class="style-star"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="t-col-des">5,023</span>
+                    <div class="prim">
+                        <a href="#" class="m-link">
+                            <p>₹20,799.00</p>
+                        </a>
+                        <a href="#" class="primen prime-msg">
+                            <p><i class="fa-solid fa-check prime-check-1 prime-check-2"></i>
+                            </p>
+                            <p class="prime-check">Prime</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="review-sec">
+        <div class="review-sec-1">
+            <div class="review-sec-11">
+                <h3>Customer reviews</h3>
+                <span class="style-star-12"><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i></span>
+                <span class="review-sec-13">4 out of 5</span>
+            </div>
+            <br>
+            <div class="review-sec-14">
+                <span>452 global ratings</span>
+            </div>
+
+            <div class="review-sec-15">
+                <p><a href="#">
+                        <span class="t-col-des">5 star</span>
+                        <span class="style-star-1"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i></span>
+                        <span class="t-col-des"> 53%</span>
+                    </a></p>
+            </div>
+            <div class="review-sec-15">
+                <p><a href="#">
+                        <span class="t-col-des">4 star</span>
+                        <span class="style-star-1"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i></span>
+                        <span class="t-col-des"> 23%</span>
+                    </a></p>
+            </div>
+            <div class="review-sec-15">
+                <p><a href="#">
+                        <span class="t-col-des">3 star</span>
+                        <span class="style-star-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <span class="t-col-des"> 9%</span>
+                    </a></p>
+            </div>
+            <div class="review-sec-15">
+                <p><a href="#">
+                        <span class="t-col-des">2 star</span>
+                        <span class="style-star-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <span class="t-col-des"> 5%</span>
+                    </a></p>
+            </div>
+            <div class="review-sec-15">
+                <p><a href="#">
+                        <span class="t-col-des">1 star</span>
+                        <span class="style-star-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></span>
+                        <span class="t-col-des"> 10%</span>
+                    </a></p>
+            </div>
+            <div class="review-sec-16">
+                <a href="#">
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                    <span class="sec-17">How are ratings calculated?</span>
+                </a>
+            </div>
+            <hr>
+            <div class="review-sec-17">
+                <h3>Review this product</h3>
+            </div>
+            <div class="review-sec-18">
+                <p>Share your thoughts with other customers</p>
+            </div>
+            <div class="review-sec-19">
+                <p><a href="#">Write a product review</a></p>
+            </div>
+            <hr>
+        </div>
+        <!-- <hr> -->
+        <div class="review-sec-2">
+            <div class="review-sec-21">
+                <h3>Customers say</h3>
+            </div>
+            <div class="review-sec-22">
+                <span>Customers like the value, performance, and camera quality of the cellular phone. For example, they
+                    mention that it's a nice phone in this price range, the display is good for the price range and that
+                    the gaming performance is awesome. They appreciate the appearance, and battery. That said, some
+                    complain about the heating. Opinions are mixed on sound quality and camera.
+                </span>
+                <p>
+                    AI-generated from the text of customer reviews
+                </p>
+            </div>
+            <div class="review-sec-23">
+                <div class="sec-24">
+                    <span class="sec-25"><i class="fa-solid fa-circle-check"></i></span>
+                    <span class="sec-26">Camera quality</span>
+                </div>
+                <div class="sec-24">
+                    <span class="sec-25"><i class="fa-solid fa-circle-check"></i></span>
+                    <span class="sec-26">Performance</span>
+                </div>
+                <div class="sec-24">
+                    <span class="sec-25"><i class="fa-solid fa-circle-check"></i></span>
+                    <span class="sec-26">Appearance</span>
+                </div>
+                <div class="sec-24">
+                    <span class="sec-25"><i class="fa-solid fa-circle-check"></i></span>
+                    <span class="sec-26">Value</span>
+                </div>
+                <div class="sec-24">
+                    <span class="sec-25"><i class="fa-solid fa-circle-check"></i></span>
+                    <span class="sec-26">Battery</span>
+                </div>
+                <div class="sec-27">
+                    <span class="sec-26">Camera</span>
+                </div>
+                <div class="sec-27">
+                    <span class="sec-26">Sound quality</span>
+                </div>
+                <div class="sec-28">
+                    <span class="sec-29"><i class="fa-solid fa-circle-minus"></i></span>
+                    <span class="sec-26">Heating</span>
+                </div>
+            </div>
+            <div class="review-sec-24">
+                <div class="sec-241">
+                    <span class="sec-242">106 customers mention</span>
+                    <span class="sec-242 sec-243">79 positive</span>
+                    <span class="sec-242 sec-244">27 negative</span>
+                </div>
+                <div class="sec-241">
+                    <p>
+                        Customers like the camera quality of the cellular phone. They mention that it has a high
+                        standard, and is impressive. Some say that the video recording is great, and the build quality
+                        is good.
+                    </p>
+                </div>
+                <div class="sec-241">
+                    <p>
+                        "...<b>Camera is amazing</b>, beautiful potrait shots and night mode as well...." <span class="sec-245">Read more</span>
+                    </p>
+                </div>
+                <div class="sec-241">
+                    <p>
+                        "...But in hand filling not so good. With cover it's ok. <b>Back Camera very good</b>...." <span class="sec-245">Read more</span>
+                    </p>
+                </div>
+                <div class="sec-241">
+                    <p>
+                        "...🌟Performance is very good.🌟Charging is also good.🌟<b>Camera quality is good</b> but may be increment in quality...." <span class="sec-245">Read more</span>
+                    </p>
+                </div>
+                <div class="sec-241">
+                    <p>
+                        "...Battery backup is good.Only the <b>120hz display needs to be fixed</b>, i mean I am using iQOOZ3 also, compared to that this feels some what nrml,..." <span class="sec-245">Read more</span>
+                    </p>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="article">
+            <div class="part1">
+                <h4>Get to Know Us</h4>
+                <ul class="link-style">
+                    <a href="#">
+                        <li>Careers</li>
+                    </a>
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                    <a href="#">
+                        <li>About Amazon</li>
+                    </a>
+                    <a href="#">
+                        <li>Investor Relations</li>
+                    </a>
+                    <a href="#">
+                        <li>Amazon Devices</li>
+                    </a>
+                    <a href="#">
+                        <li>Amazon Science</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="part2">
+                <h4>Make Money with Us</h4>
+                <ul class="link-style">
+                    <a href="#">
+                        <li>Sell products on Amazon</li>
+                    </a>
+                    <a href="#">
+                        <li>Sell on Amazon Business</li>
+                    </a>
+                    <a href="#">
+                        <li>Sell apps on Amazon</li>
+                    </a>
+                    <a href="#">
+                        <li>Become an Affiliate</li>
+                    </a>
+                    <a href="#">
+                        <li>Advertise Your Products</li>
+                    </a>
+                    <a href="#">
+                        <li>Self-Publish with Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="part3">
+                <h4>Followers</h4>
+                <ul class="social-media">
+                    <a href="#" class="icon-ig"><img src="facebook.png" alt="facebook" height="50px" width="50px"></a>
+                    <a href="#" class="icon-ig"><img src="ista.jpeg" alt="instagram" height="50px" width="50px"></a>
+                    <a href="#" class="icon-ig"><img src="twitter.png" alt="twitter" height="50px" width="50px"></a>
+                    <a href="#" class="icon-ig"><img src="linkedin.png" alt="linkedin" height="50px" width="50px"></a>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+    </div>
+    <script src="iQOO.js"></script>
+    <script src="addCart.js"></script>
+</body>
+
+</html>

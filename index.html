@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="icons8-amazon-16.png">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <div class="logo border">
+                <img src="logo1.png" alt="logo" height="60px" width="80px">
+            </div>
+        </div>
+        <div class="location border">
+            <div class="location-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="location-display">
+                <span class="location-address">
+                    Delivering to Mumbai 400078
+                </span>
+                <p class="location-update">
+                    Update location
+                </p>
+            </div>
+        </div>
+        <div class="nav-search border">
+            <select class="search-select">
+                <option selected="selected">All Categories</option>
+                <option>Alexa Skills</option>
+                <option>Amazon Devices</option>
+                <option>Amazon Fashion</option>
+                <option>Amazon Fresh</option>
+                <option>Amazon Pharmacy</option>
+                <option>Appliances</option>
+                <option>Apps & Games</option>
+                <option>Audible Audiobooks</option>
+                <option>Baby</option>
+                <option>Beauty</option>
+                <option>Books</option>
+                <option>Car & Motorbike</option>
+                <option>Clothing & Accessories</option>
+                <option>Collectibles</option>
+                <option>Computers & Accessories</option>
+                <option>Deals</option>
+                <option>Electronics</option>
+                <option>Furniture</option>
+                <option>Garden & Outdoors</option>
+                <option>Gift Cards</option>
+                <option>Grocery & Gourmet Foods</option>
+                <option>Health & Personal Care</option>
+                <option>Home & Kitchen</option>
+                <option>Industrial & Scientific</option>
+                <option>Jewellery</option>
+                <option>Kindle Store</option>
+                <option>Luggage & Bags</option>
+                <option>Luxury Beauty</option>
+                <option>Movies & TV Shows</option>
+                <option>MP3 Music</option>
+                <option>Music</option>
+                <option>Musical Instruments</option>
+                <option>Office Products</option>
+                <option>Pet Supplies</option>
+                <option>Prime Video</option>
+                <option>Shoes & Handbags</option>
+                <option>Software</option>
+                <option>Sports, Fitness & Outdoors</option>
+                <option>Subscribe & Save</option>
+                <option>Tools & Home Improvement</option>
+                <option>Toys & Games</option>
+                <option>Under ₹500</option>
+                <option>Video Games</option>
+                <option>Watches</option>
+
+            </select>
+            <input placeholder="Search Amazon.in" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-country border">
+            <div class="country-flag">
+                <div class="flag">
+                    <img src="flag.png" alt="Forest" width="20" height="20">
+                </div>
+            </div>
+            <div class="country-select">
+                <div>EN</div>
+            </div>
+            <div class="country-icon">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="nav-country-popup">
+                <div class="nav-country-popup-content">
+                    <div class="country-selected">
+                        <!-- <a href="#" class="close-country"><i class="fa-regular fa-circle-xmark"></i></a> -->
+                        <i class="fa-regular fa-circle-dot eng"></i>
+                        <span>English - EN</span>
+                    </div>
+                    <hr>
+                    <div class="country-others">
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>मराठी - MR</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>हिंदी - HI</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>தமிழ் - TA</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>తెలుగు - TE</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>ಕನ್ನಡ - KN</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>മലയാളം - ML</span>
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-circle clang"></i>
+                            <span>বাংলা - BL</span>
+                        </p>
+                        <p class="learn-m"><a href="#">Learn More</a></p>
+                    </div>
+                    <hr>
+                    <div class="country-change">
+                        <p>You are shopping on Amazon.in</p>
+                        <p><a href="#">Change country/region.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-sign border">
+            <span class="sign-msg">
+                Hello, sign in
+            </span>
+            <div class="sign-in">
+                <span class="sign-msg2">
+                    Account & Lists
+                </span>
+                <span class="sign-in-icon"><i class="fa-solid fa-caret-down"></i></span>
+            </div>
+            <div class="popup">
+
+                <div class="popup-content">
+                    <!-- <a href="#" class="close"><i class="fa-regular fa-circle-xmark"></i></a> -->
+                    <div class="sign-btn">
+                        <button>Sign in</button>
+                        <div class="sign-btn-msg">
+                            New Customer?<a href="#">Start here.</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="sign-details">
+                        <div class="sign-details-11">
+                            <h5 class="your-head">
+                                Your List
+                            </h5>
+                            <p>Create a Wish List</p>
+                            <p>Wish From Any Website</p>
+                            <p>Baby Wish List</p>
+                            <p>Discover Your Style</p>
+                            <p>Explore Showroom</p>
+                        </div>
+                        <div class="sign-details-22">
+                            <h5 class="your-head">
+                                Your Account
+                            </h5>
+                            <p>Your Account</p>
+                            <p>Your Orders</p>
+                            <p>Your Wish List</p>
+                            <p>Your Recommendations</p>
+                            <p>Your Prime Membership</p>
+                            <p>Your Prime Video</p>
+                            <p>Your Subscribe & Save Items</p>
+                            <p>Membership & Subscriptions</p>
+                            <p>Your Seller Account</p>
+                            <p>Manage Your Content and Devices</p>
+                            <p>Your Free Business Account</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-return border">
+            <span class="return-msg">
+                Returns
+            </span>
+            <div class="order">
+                <span class="order-msg">
+                    & Orders
+                </span>
+            </div>
+        </div>
+        <div class="nav-cart">
+            <div class="cart border"></div>
+        </div>
+    </div>
+    
+    <div class="location-popup">
+        <div class="location-popup-content">
+            <div class="location-heading">
+                <a href="#" class="close-loc"><i class="fa-regular fa-circle-xmark"></i></a>
+                <h4 class="location-head">Choose your location</h4>
+            </div>
+            <div class="update-details">
+                <p>Select a delivery location to see product availability and delivery options</p>
+                <button>Sign in to see your addresses</button>
+                <p class="details-p2">or enter an Indian pincode</p>
+            </div>
+            <div class="apply-details">
+                <input type="text" id="">
+                <button class="apply">Apply</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menu-side-popup">
+        <div class="menu-side">
+            <div class="sign-in-side">
+                <div class="sign-in-icons">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="sign-in-msg">
+                    <b>Hello, sign in</b>
+                </div>
+                <div class="nav-toggle">
+                    <a href="#">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-side-content">
+                <ul>
+                    <li>
+                        <div class="content-head"> Trending </div>
+                    </li>
+                    <li class="content-list">Best Sellers</li>
+                    <li class="content-list">New Releases</li>
+                    <li class="content-list">Movers and Shakers</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Digital Content and Device </div>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Echo & Alexa</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Fire TV</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Kindle E-Readers & eBooks</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Audible Audiobooks</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Prime Video</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Prime Music</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Shop by Category </div>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Mobiles, Computers</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">TV, Appliances, Electronics</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Men's Fashion</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Women's Fashion</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-deta content-list">
+                        <div class="content-det">See All</div>
+                        <i class="fa-solid fa-chevron-down content-icon"></i>
+                    </li>
+
+
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Programs & Features </div>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Pay</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Gift Cards & Mobile Recharges</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Amazon Launchpad</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-det content-list">
+                        <div class="content-det">Handloom and Handicrafts</div>
+                        <i class="fa-solid fa-chevron-right content-icon"></i>
+                    </li>
+                    <li class="cont-deta content-list">
+                        <div class="content-det">See All</div>
+                        <i class="fa-solid fa-chevron-down content-icon"></i>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <div class="content-head"> Help & Settings </div>
+                    </li>
+                    <li class="content-list">Your Account</li>
+                    <li class="content-list">Customer Service</li>
+                    <li class="content-list">Sign in</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="navmenu"><a href="">
+        <div class="menu border">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu-msg">
+                All
+            </div>
+        </div></a>
+        <div class="fresh border">
+            <div class="fresh-msg padding-menu">
+                Fresh
+            </div>
+        </div>
+        <div class="minitv border">
+                <div class="minitv-msg padding-menu">
+                    Amazon miniTV
+                </div>
+        </div>
+        <div class="sell border">
+            <div class="sell-msg padding-menu">
+                Sellers
+            </div>
+        </div>
+        <div class="bestsellers border">
+            <div class="bestsellers-msg padding-menu">
+                Best Sellers
+            </div>
+        </div>
+        <div class="mobile border">
+            <a href="mobile.html">
+            <div class="mobile-msg padding-menu">
+                Mobiles</a>
+            </div>
+        </div>
+        <div class="today border">
+            <div class="today-msg padding-menu">
+                Today's Deal
+            </div>
+        </div>
+        <div class="prime border">
+            <div class="prime-icon padding-menu">
+                <img src="prime.jpg" alt="prime" height="40px" width="350px">
+            </div>
+        </div>
+    </div>
+   
+    
+    <div class="main-body">
+        <div class="aside">
+            <h3>Mobile Phone and Details</h3>
+            <div class="gallery">
+                <a href="#">
+                    <img src="iphone.jpg" alt="iphone" width="150px" height="150px">
+                </a>
+                <div class="desc">
+                    128 GB ROM15.49 cm (6.1 inch)
+                    Super Retina XDR Display
+                    48MP + 12MP | 12MP Front Camera
+                    A16 Bionic Chip, 6 Core Processor
+                    ₹79,900
+                </div>
+            </div>
+            <div class="gallery">
+                <a href="#">
+                    <img src="samsungs23fe.avif" alt="samsungs23fe" width="150px" height="150px">
+                </a>
+                <div class="desc">
+                    128 GB ROM15.49 cm (6.1 inch)
+                    Super Retina XDR Display
+                    48MP + 12MP | 12MP Front Camera
+                    A16 Bionic Chip, 6 Core Processor
+                    ₹79,900
+                </div>
+            </div>
+            <div class="gallery">
+                <a href="#">
+                    <img src="nothing-phone.jpg" alt="nothing-phone" width="150px" height="150px">
+                </a>
+                <div class="desc">
+                    128 GB ROM15.49 cm (6.1 inch)
+                    Super Retina XDR Display
+                    48MP + 12MP | 12MP Front Camera
+                    A16 Bionic Chip, 6 Core Processor
+                    ₹79,900
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="sub-section-1">
+                <div class="photos">
+                    <a href="#" class="edit">
+                        <img src="refrigerator.jpeg" alt="refrigerator" width="250" height="250">
+                    </a>
+                    <div class="deta">Refrigerators</div>
+                </div>
+                <div class="photos">
+                    <a href="#" class="edit">
+                        <img src="machine.webp" alt="washing machine" width="250" height="250">
+                    </a>
+                    <div class="deta">Washing Machines</div>
+                </div>
+            </div>
+            <div class="sub-section-1">
+                <div class="photos">
+                    <a href="#" class="edit">
+                        <img src="ac.jpeg" alt="air conditioner" width="250" height="250">
+                    </a>
+                    <div class="deta">Air Conditioners</div>
+                </div>
+                <div class="photos">
+                    <a href="#" class="edit">
+                        <img src="microwave.jpeg" alt="Microwave" width="250" height="250">
+                    </a>
+                    <div class="deta">Microwaves</div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+    <div class="footer">
+        <div class="article">
+            <div class="part1">
+                <h4>Get to Know Us</h4>
+                <ul>
+                    <a href="#">
+                        <li>Careers</li>
+                    </a>
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                    <a href="#">
+                        <li>About Amazon</li>
+                    </a>
+                    <a href="#">
+                        <li>Investor Relations</li>
+                    </a>
+                    <a href="#">
+                        <li>Amazon Devices</li>
+                    </a>
+                    <a href="#">
+                        <li>Amazon Science</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="part2">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <a href="#">
+                        <li>Sell products on Amazon</li>
+                    </a>
+                    <a href="#">
+                        <li>Sell on Amazon Business</li>
+                    </a>
+                    <a href="#">
+                        <li>Sell apps on Amazon</li>
+                    </a>
+                    <a href="#">
+                        <li>Become an Affiliate</li>
+                    </a>
+                    <a href="#">
+                        <li>Advertise Your Products</li>
+                    </a>
+                    <a href="#">
+                        <li>Self-Publish with Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="part3">
+                <h4>Followers</h4>
+                <ul class="social-media">
+                    <a href="#" class="icon-ig"><img src="facebook.png" alt="facebook" height="50px" width="50px"></a>
+                    <a href="#" class="icon-ig"><img src="ista.jpeg" alt="instagram" height="50px" width="50px"></a>
+                    <a href="#" class="icon-ig"><img src="twitter.png" alt="twitter" height="50px" width="50px"></a>
+                    <a href="#" class="icon-ig"><img src="linkedin.png" alt="linkedin" height="50px" width="50px"></a>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+    </div>
+    <script src="index.js"></script>
+    <!-- <script src="iQOO.js"></script> -->
+</body>
+
+</html>
